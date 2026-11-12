@@ -323,7 +323,7 @@ void fts_gesture_recovery(struct fts_ts_data *ts_data)
 }
 /*L19AC-U code for TS-108669, 2024/3/5, Start*/
 #if (defined PROJECT_ROCK)
-extern bool fts_shutdown_flag;
+bool fts_shutdown_flag = false;
 #endif
 
 int fts_gesture_suspend(struct fts_ts_data *ts_data)
