@@ -62,7 +62,7 @@
 	default:							\
 		is_atomic = 0;						\
 	}								\
-	is_atomic ? (typeof(*__x))__u.__val : (*(volatile typeof(__x))__x);\
+	is_atomic ? (typeof(*__x))__u.__val : (*(volatile typeof(*__x) *)__x);\
 })
 
 #endif	/* !BUILD_VDSO */
