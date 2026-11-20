@@ -698,12 +698,4 @@ CONFIG_TCP_CONG_WESTWOOD=y
 CONFIG_TMPFS_XATTR=y
 CONFIG_LRU_GEN=y
 CONFIG_LRU_GEN_ENABLED=y
-
-#================================= Clang toolchain compatibility ===============
-# CONFIG_WERROR is not set
-# CONFIG_STACKPROTECTOR_PER_TASK is not set
-CONFIG_CFI_PERMISSIVE=y
-CONFIG_FRAME_WARN=8192
-CONFIG_SHADOW_CALL_STACK=y
-#================================= End Clang compatibility =====================
 #================================= Others end ====================================
