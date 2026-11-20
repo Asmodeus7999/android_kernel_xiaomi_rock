@@ -686,6 +686,7 @@ CONFIG_NFC_PN553_DEVICES=m
 #================================= Others begin ==================================
 CONFIG_MIUI_ZRAM_MEMORY_TRACKING=y
 CONFIG_ZRAM_WRITEBACK=y
+CONFIG_ZRAM_MULTI_COMP=y
 CONFIG_DEBUG_FS=y
 CONFIG_MTK_SCP=m
 CONFIG_MTK_SCP_AUDIO=m
