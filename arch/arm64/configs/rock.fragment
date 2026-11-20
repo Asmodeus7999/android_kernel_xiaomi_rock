@@ -699,4 +699,6 @@ CONFIG_TCP_CONG_WESTWOOD=y
 CONFIG_TMPFS_XATTR=y
 CONFIG_LRU_GEN=y
 CONFIG_LRU_GEN_ENABLED=y
+CONFIG_MQ_IOSCHED_SSG=y
+CONFIG_MQ_IOSCHED_SSG_CGROUP=y
 #================================= Others end ====================================
